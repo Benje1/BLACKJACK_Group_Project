@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BLACKJACK_Group_Project/static/css/main.8d0dd973.css",
+    "main.js": "/BLACKJACK_Group_Project/static/js/main.5089fec3.js",
+    "index.html": "/BLACKJACK_Group_Project/index.html",
+    "main.8d0dd973.css.map": "/BLACKJACK_Group_Project/static/css/main.8d0dd973.css.map",
+    "main.5089fec3.js.map": "/BLACKJACK_Group_Project/static/js/main.5089fec3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d0dd973.css",
+    "static/js/main.5089fec3.js"
+  ]
+}
