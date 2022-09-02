@@ -16,6 +16,7 @@ import SettingsDial from './components/SettingsDial';
 import SpinWheel from './containers/SpinWheel';
 import Dice from './components/Dice';
 import HL from './components/HL';
+import appbg from "./static/appbg.png"
 
 
 
@@ -113,7 +114,7 @@ function App() {
   return (
     <div className='app-wrapper'>
 
-      <img src="/BLACKJACK_Group_Project/client/src/static/app-bg.png" alt="" className='bg' />
+      <img src={appbg} alt="" className='bg' />
       <div className="app">
         <Navbar user={user} updateMoney={updateMoney} />
 
