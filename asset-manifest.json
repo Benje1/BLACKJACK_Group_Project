@@ -1,14 +1,21 @@
 {
   "files": {
     "main.css": "/BLACKJACK_Group_Project/static/css/main.8d0dd973.css",
-    "main.js": "/BLACKJACK_Group_Project/static/js/main.ed168b12.js",
+    "main.js": "/BLACKJACK_Group_Project/static/js/main.6a4a87e4.js",
+    "static/media/reverse.png": "/BLACKJACK_Group_Project/static/media/reverse.92a07f51d58b9f983688.png",
+    "static/media/dealersCards.png": "/BLACKJACK_Group_Project/static/media/dealersCards.0f1a1b8a95f1cfc520d8.png",
+    "static/media/playersHand.png": "/BLACKJACK_Group_Project/static/media/playersHand.a0c70260f3d88276db5b.png",
+    "static/media/wager.gif": "/BLACKJACK_Group_Project/static/media/wager.a7dd15f3422ae41d1cdb.gif",
     "static/media/appbg.png": "/BLACKJACK_Group_Project/static/media/appbg.ba858775054b76ca6eab.png",
+    "static/media/draw.gif": "/BLACKJACK_Group_Project/static/media/draw.29c2fc2a6aa0932f5f10.gif",
+    "static/media/dice.gif": "/BLACKJACK_Group_Project/static/media/dice.4fea9c5bf71e18d0c1b0.gif",
+    "static/media/pokerTable.jpg": "/BLACKJACK_Group_Project/static/media/pokerTable.ac7beda03c55e09f761d.jpg",
     "index.html": "/BLACKJACK_Group_Project/index.html",
     "main.8d0dd973.css.map": "/BLACKJACK_Group_Project/static/css/main.8d0dd973.css.map",
-    "main.ed168b12.js.map": "/BLACKJACK_Group_Project/static/js/main.ed168b12.js.map"
+    "main.6a4a87e4.js.map": "/BLACKJACK_Group_Project/static/js/main.6a4a87e4.js.map"
   },
   "entrypoints": [
     "static/css/main.8d0dd973.css",
-    "static/js/main.ed168b12.js"
+    "static/js/main.6a4a87e4.js"
   ]
 }
