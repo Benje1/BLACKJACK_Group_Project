@@ -1,3 +1,8 @@
+
+
+
+
+
 const getValue = (card) => {
     if (card.value === 'KING' || card.value === 'JACK' || card.value === 'QUEEN') {
         return 10
@@ -63,4 +68,4 @@ const blackjackCardRunnings = (playerHand) => {
     return `Player running total: ${playerRunning}`;
 }
 
-export default {getValue, blackjackGameLogic, checkIfBustWithAce, aceOfDealer, blackjackCardRunnings};
+export {getValue, checkIfBustWithAce, aceOfDealer, blackjackCardRunnings, blackjackGameLogic}

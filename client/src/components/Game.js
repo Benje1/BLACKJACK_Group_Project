@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import React, { useEffect, useState } from 'react'
 import Draggable from "react-draggable"
 import { Link } from "react-router-dom";
-const { blackjackGameLogic, blackjackCardRunnings, aceOfDealer, checkIfBustWithAce } = require('../gameLogic')
+import  { blackjackGameLogic, blackjackCardRunnings, aceOfDealer, checkIfBustWithAce } from '../gameLogic.js'
 
 
 const Game = ({ user, updateMoney, wagerMoney, wagerLost, handleExpGain }) => {
