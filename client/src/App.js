@@ -110,7 +110,7 @@ function App() {
   return (
     <div className='app-wrapper'>
 
-      <img src="/static/app-bg.png" alt="" className='bg' />
+      <img src="../public/static/app-bg.png" alt="" className='bg' />
       <div className="app">
         <Navbar user={user} updateMoney={updateMoney} />
 
