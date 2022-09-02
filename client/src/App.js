@@ -16,7 +16,7 @@ import SettingsDial from './components/SettingsDial';
 import SpinWheel from './containers/SpinWheel';
 import Dice from './components/Dice';
 import HL from './components/HL';
-import background from "../.public/static/app-bg.png"
+
 
 
 
@@ -113,7 +113,7 @@ function App() {
   return (
     <div className='app-wrapper'>
 
-      <img src={background} alt="" className='bg' />
+      <img src="static/app-bg.png" alt="" className='bg' />
       <div className="app">
         <Navbar user={user} updateMoney={updateMoney} />
 
