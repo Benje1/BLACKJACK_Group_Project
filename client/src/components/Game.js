@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react'
 import Draggable from "react-draggable"
 import { Link } from "react-router-dom";
 import  { blackjackGameLogic, blackjackCardRunnings, aceOfDealer, checkIfBustWithAce } from '../gameLogic.js'
+import reverse from "../static/reverse.png"
+import pokerTable from "../static/pokerTable.jpg"
 
 
 const Game = ({ user, updateMoney, wagerMoney, wagerLost, handleExpGain }) => {
@@ -203,7 +205,7 @@ const Game = ({ user, updateMoney, wagerMoney, wagerLost, handleExpGain }) => {
             return (
                 <>
                     <img className='card' src={dealersHand[0].image} alt="playing_card" />
-                    <img className='card' src="/static/reverse.png" alt="playing_card" />
+                    <img className='card' src={reverse} alt="playing_card" />
                 </>
             )
         } else {
@@ -523,7 +525,7 @@ const Game = ({ user, updateMoney, wagerMoney, wagerLost, handleExpGain }) => {
     return (
         <>
             <div className="game-wrapper">
-                <img src="/static/poker-table.jpg" alt="" className='game-table' />
+                <img src={pokerTable} alt="" className='game-table' />
                 <div className="margin-wrapper">
                     {showExp.show && <ExpDisplay />}
                     <div className='top-half'>

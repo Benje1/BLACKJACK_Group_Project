@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSackDollar } from '@fortawesome/free-solid-svg-icons'
+import dice from "../static/dice.gif"
 
 const Dice = ({ updateMoney, updateMoneyDecrease, user, handleExpGain }) => {
     const [wager, setWager] = useState(0)
@@ -110,7 +111,7 @@ const Dice = ({ updateMoney, updateMoneyDecrease, user, handleExpGain }) => {
         <div className='dice-wrapper'>
             {showExp.show && <ExpDisplay />}
             <div className="dice-container">
-                <img src="/static/dice.gif" alt="" />
+                <img src={dice} alt="" />
                 <h3>{guess ? `guess: ${guess}` : `make a guess`}</h3>
                 <div>
                     <input type="number" min="2" max="12" placeholder='guess' onChange={handleChange} />

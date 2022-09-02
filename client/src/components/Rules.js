@@ -6,6 +6,10 @@ import StepLabel from '@mui/material/StepLabel';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
+import wager from "../static/wager.gif"
+import draw from "../static/draw"
+import playerHand from "../static/playersHand.png"
+import dealerCards from "../static/dealersCards.png"
 
 const Rules = () => {
 
@@ -15,7 +19,7 @@ const Rules = () => {
 
     const description = ['Set your wager', 'Click draw cards to start the game', 'The bottom row is the players cards', 'The top row is the dealers cards'];
 
-    const images = ["/static/wager.gif", "/static/draw.gif", "/static/players-hand.png", "/static/dealers-cards.png"];
+    const images = [wager, draw, playerHand, dealerCards];
 
     const handleNext = () => {
         setActiveStep((prevActiveStep) => prevActiveStep + 1);
